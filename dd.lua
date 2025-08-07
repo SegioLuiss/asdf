@@ -1,7 +1,7 @@
 getgenv().ConfigsKaitun = {
     Beta_Fix_Data_Sync = true,
 
-    ["Block Pet Gift"] = false,
+    ["Block Pet Gift"] = true,
 
     Collect_Cooldown = 60, -- cooldown to collect fruit
     JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
@@ -153,9 +153,10 @@ getgenv().ConfigsKaitun = {
             },
             ["Limit Upgrade"] = 5,
             ["Equip When Done"] = {
-                ["Blood Kiwi"] = { 8, 100, 1 },
-                ["Rooster"] = { 8, 100, 2 },
-                ["Chicken"] = { 8, 100, 3 },
+                ["Spaghetti Sloth"] = { 8, 100, 1},
+                ["Blood Kiwi"] = { 8, 100, 2 },
+                ["Rooster"] = { 8, 100, 3 },
+                ["Chicken"] = { 8, 100, 4 },
             },
         },
         Favorite_LockedPet = true,
