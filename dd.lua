@@ -1,6 +1,6 @@
 getgenv().ConfigsKaitun = {
     Beta_Fix_Data_Sync = true,
-
+    NoDeletePlayer = false,
     ["Block Pet Gift"] = false,
 
     Collect_Cooldown = 60, -- cooldown to collect fruit
@@ -60,19 +60,26 @@ getgenv().ConfigsKaitun = {
     },
 
     Events = {
-        ["Cook Event"] = {
-            Minimum_Money = 30_000_000,
-        },
+		["Cook Event"] = {
+			Minimum_Money = 30_000_000, -- minimum money to start play this event
+			Rewards_Item = { -- The top is the most top mean prefered.
+				"Gorilla Chef",
+				"Gourmet Egg",
+				"Culinarian Chest",
+				"Gourmet Seed Pack",
+				"Sunny-Side Chicken",
+			}
+		},
         ["Traveling Shop"] = {
             "Bee Egg",
             "Bell Pepper",
             "Feijoa",
         },
         Craft = {
-            "Ancient Seed Pack",
-            "Anti Bee Egg",
-            "Primal Egg",
-        },
+			"Ancient Seed Pack",
+			"Anti Bee Egg",
+			"Primal Egg",
+		},
         Shop = {
             "Zen Egg",
             "Zen Seed Pack",
