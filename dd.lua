@@ -63,7 +63,7 @@ getgenv().ConfigsKaitun = {
 		["Cook Event"] = {
 			Minimum_Money = 30_000_000, -- minimum money to start play this event
 			Rewards_Item = { -- The top is the most top mean prefered.
-                "Lobster Thermidor"
+                "Lobster Thermidor",
 				"Gorilla Chef",
 				"Gourmet Egg",
 				"Culinarian Chest",
@@ -153,7 +153,7 @@ getgenv().ConfigsKaitun = {
         Favorite_LockedPet = true,
         Locked_Pet_Age = 60,
         Locked = {
-            "Lobster Thermidor"
+            "Lobster Thermidor",
             "French Fry Ferret",
             "Corrupted Kitsune",
             "Raiju",
