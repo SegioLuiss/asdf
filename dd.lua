@@ -80,6 +80,7 @@ getgenv().ConfigsKaitun = {
 			"Ancient Seed Pack",
 			"Anti Bee Egg",
 			"Primal Egg",
+            "Dinosaur Egg",
 		},
         Shop = {
             "Zen Egg",
