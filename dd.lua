@@ -148,9 +148,9 @@ getgenv().ConfigsKaitun = {
             ["Equip When Done"] = {
                 ["Spaghetti Sloth"] = { 3, 100, 1},
                 ["Gorilla Chef"] = { 5, 100, 2},
-                ["Blood Kiwi"] = { 8, 100, 2 },
-                ["Rooster"] = { 8, 100, 3 },
-                ["Chicken"] = { 8, 100, 4 },
+                ["Sunny-Side Chicken"] = { 8, 100, 3},
+                ["Blood Kiwi"] = { 8, 100, 4 },
+                ["Rooster"] = { 8, 100, 5 },
             },
         },
         Favorite_LockedPet = true,
