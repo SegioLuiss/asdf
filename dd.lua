@@ -67,7 +67,7 @@ getgenv().ConfigsKaitun = {
 				"Gorilla Chef",
 				"Gourmet Egg",
 				"Culinarian Chest",
-                "Cooking Cauldron"
+                "Cooking Cauldron",
 				"Gourmet Seed Pack",
 				"Sunny-Side Chicken",
 			}
