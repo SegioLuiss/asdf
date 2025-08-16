@@ -60,17 +60,14 @@ getgenv().ConfigsKaitun = {
     },
 
     Events = {
-		["Cook Event"] = {
-			Minimum_Money = 30_000_000, -- minimum money to start play this event
-			Rewards_Item = { -- The top is the most top mean prefered.
-                "Lobster Thermidor",
-				"Gorilla Chef",
-				"Gourmet Egg",
-				"Culinarian Chest",
-                "Cooking Cauldron",
-				"Gourmet Seed Pack",
-				"Sunny-Side Chicken",
-			}
+		["Bean Event"] = {
+			Minimum_Money = 10_000_000,
+		},
+		Shop = {
+			"Sprout Seed Pack",
+			"Sprout Egg",
+			"Silver Fertilizer",
+			"Spriggan",
 		},
         ["Traveling Shop"] = {
             "Bee Egg",
@@ -83,13 +80,6 @@ getgenv().ConfigsKaitun = {
 			"Primal Egg",
             "Dinosaur Egg",
 		},
-        Shop = {
-            "Zen Egg",
-            "Zen Seed Pack",
-            "Spiked Mango",
-            "Bell Pepper",
-            "Feijoa",
-        },
         Start_Do_Honey = 2_000_000
     },
 
@@ -117,6 +107,7 @@ getgenv().ConfigsKaitun = {
 
     Eggs = {
         Place = {
+			"Sprout Egg",
 			"Primal Egg",
             "Gourmet Egg",
             "Zen Egg",
@@ -158,6 +149,7 @@ getgenv().ConfigsKaitun = {
         Favorite_LockedPet = true,
         Locked_Pet_Age = 60,
         Locked = {
+			"Golden Goose",
             "Lobster Thermidor",
             "French Fry Ferret",
             "Corrupted Kitsune",
@@ -200,6 +192,7 @@ getgenv().ConfigsKaitun = {
                 "Idk"
             },
             Pets = {
+				"Golden Goose",
                 "Lobster Thermidor",
                 "Corrupted Kitsune",
                 "Kitsune",
