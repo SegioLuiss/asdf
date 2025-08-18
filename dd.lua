@@ -64,7 +64,7 @@ getgenv().ConfigsKaitun = {
 			Minimum_Money = 10_000_000,
 		},
 		Shop = {
-			"Sprout Seed Pack",
+			--"Sprout Seed Pack",
 			"Sprout Egg",
 			"Silver Fertilizer",
 			"Spriggan",
@@ -146,7 +146,7 @@ getgenv().ConfigsKaitun = {
         Locked_Pet_Age = 60,
         Locked = {
 			"Golden Goose",
-            "Golem",
+            --"Golem",
             "Lobster Thermidor",
             "French Fry Ferret",
             "Corrupted Kitsune",
@@ -190,7 +190,7 @@ getgenv().ConfigsKaitun = {
             },
             Pets = {
 				"Golden Goose",
-                "Golem",
+                --"Golem",
                 "Lobster Thermidor",
                 "Corrupted Kitsune",
                 "Kitsune",
