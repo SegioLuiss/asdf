@@ -1,9 +1,8 @@
 getgenv().ConfigsKaitun = {
-    Beta_Fix_Data_Sync = false,
     NoDeletePlayer = false,
     ["Block Pet Gift"] = false,
 
-    Collect_Cooldown = 60, -- cooldown to collect fruit
+    Collect_Cooldown = 120, -- cooldown to collect fruit
     JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
 
     ["Low Cpu"] = true,
@@ -26,13 +25,14 @@ getgenv().ConfigsKaitun = {
 			"Bone Blossom",
 			"Fossilight",
       		"Serenity",
-      
-			["Tomato"] = 5, ["Strawberry"] = 5, ["Blueberry"] = 5,
-			["Orange Tulip"] = 5, ["Corn"] = 5, ["Daffodil"] = 5,
-			["Bamboo"] = 5, ["Apple"] = 5, ["Coconut"] = 5,
-			["Pumpkin"] = 5, ["Watermelon"] = 5, ["Cactus"] = 5,
-			["Dragon Fruit"] = 5, ["Mango"] = 5, ["Grape"] = 5,
-			["Mushroom"] = 5, ["Pepper"] = 5, ["Cacao"] = 3
+            ["Blueberry"] = 15,
+            ["Strawberry"] = 15,
+            ["Apple"] = 15,
+            ["Coconut"] = 15,
+            ["Dragon Fruit"] = 15,
+            ["Mango"] = 15,
+            ["Tomato"] = 20,
+            ["Cactus"] = 15,
 		}
     },
 
