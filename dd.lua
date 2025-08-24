@@ -147,6 +147,7 @@ getgenv().ConfigsKaitun = {
             ["Limit Upgrade"] = 5,
             ["Equip When Done"] = {
                 ["Sunny-Side Chicken"] = { 8, 100, 1},
+                ["Seal"] = {8, 100, 2},
             },
         },
         Favorite_LockedPet = true,
@@ -176,6 +177,11 @@ getgenv().ConfigsKaitun = {
             ["Starfish"] = 10,
         },
         LockPet_Weight = 4,
+		Ignore_Pet_Weight = {
+		},
+		Instant_Sell = {
+			"Seedling",
+		}
     },
 
     Webhook = {
