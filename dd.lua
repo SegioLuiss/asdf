@@ -152,6 +152,7 @@ getgenv().ConfigsKaitun = {
         Favorite_LockedPet = true,
         Locked_Pet_Age = 60,
         Locked = {
+			"Griffin",
 			"Golden Goose",
             --"Golem",
             "Lobster Thermidor",
@@ -196,6 +197,7 @@ getgenv().ConfigsKaitun = {
                 "Idk"
             },
             Pets = {
+				"Griffin",
 				"Golden Goose",
                 --"Golem",
                 "Lobster Thermidor",
