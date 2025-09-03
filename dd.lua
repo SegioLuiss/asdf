@@ -183,11 +183,6 @@ getgenv().ConfigsKaitun = {
 		Place = {
 			"Enchanted Egg",
 			"Sprout Egg",
-			"Gourmet Egg",
-			"Zen Egg",
-			"Primal Egg",
-			"Dinosaur Egg",
-			"Oasis Egg",
 			"Anti Bee Egg",
 			"Night Egg",
 			"Bug Egg",
@@ -195,6 +190,8 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Rare Summer Egg",
 			"Mythical Egg",
+            "Rare Egg"
+            "Uncommon Egg",
 		},
 		Buy = {
 			"Bee Egg",
@@ -205,8 +202,8 @@ getgenv().ConfigsKaitun = {
 			"Rare Summer Egg",
 			"Bug Egg",
 			"Mythical Egg",
+            "Rare Egg"
 			"Uncommon Egg",
-			"Common Egg",
 		}
 	},
 
@@ -221,16 +218,17 @@ getgenv().ConfigsKaitun = {
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
+                ["Brown Mouse"] = { 5, 100, 2, true },
 			},
 			["Limit Upgrade"] = 2, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
 				["Glimmering Sprite"] = {8, 100, 1},
 				["Tanchozuru"] = { 5, 100, 2 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
-				["Ostrich"] = { 3, 100, 2 },
-				["Blood Kiwi"] = { 8, 100 },
-				["Seal"] = { 8, 100 },
-				["Rooster"] = { 8, 100 },
-				["Starfish"] = { 5, 75 },
+				["Ostrich"] = { 3, 100, 3 },
+				["Blood Kiwi"] = { 8, 100 ,4},
+				["Seal"] = { 8, 100,5 },
+				["Rooster"] = { 8, 100 ,6},
+                "Chicken" = {8,100,7},     
 			},
 		},
 		Unfavorite_AllPet = false,
