@@ -228,7 +228,7 @@ getgenv().ConfigsKaitun = {
 				["Blood Kiwi"] = { 8, 100 ,4},
 				["Seal"] = { 8, 100,5 },
 				["Rooster"] = { 8, 100 ,6},
-                "Chicken" = {8,100,7},     
+                ["Chicken"] = { 8, 100, 7},     
 			},
 		},
 		Unfavorite_AllPet = false,
