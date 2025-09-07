@@ -94,31 +94,31 @@ getgenv().ConfigsKaitun = {
 
     Events = {
         ["Fairy Event"] = {
-            Minimum_Money = 50_000_000,
-            Rewards_Item = {
-                "Pet Shard Glimmering",
-                "Enchanted Egg",
-                "Mutation Spray Glimmering",
-                "FairyPoints",
-                "Fairy Targeter",
-                "Enchanted Seed Pack",
-            },
-            Upgrade = {
-                Mode = "Order", -- Order, Chepest, Highest
-                Order = {
-                    "Fairy Spawn Amount",
-                    "Loose Fairy Spawn Amount",
-                    "Glimmer Multiplier",
-                    "Fairy Event Duration",
-                },
-                Limit = {
-                    ["Glimmer Multiplier"] = 5,
-                    ["Loose Fairy Spawn Amount"] = 4,
-                    ["Fairy Event Duration"] = 5,
-                    ["Fairy Spawn Amount"] = 9,
-                }
-            }
-        },
+			Minimum_Money = 50_000_000,
+			Rewards_Item = { -- top mean select first
+				"Pet Shard Glimmering",
+				"Enchanted Egg",
+				"Mutation Spray Glimmering",
+				"FairyPoints",
+				"Fairy Targeter",
+				"Enchanted Seed Pack",
+			},
+			Upgrade = {
+				Mode = "Order",
+				Order = {
+					"Fairy Spawn Amount",
+					"Loose Fairy Spawn Amount",
+					"Glimmer Multiplier",
+					"Fairy Event Duration",
+				},
+				Limit = {
+					["Glimmer Multiplier"] = 5, -- max 10
+					["Loose Fairy Spawn Amount"] = 10, -- max 10
+					["Fairy Event Duration"] = 10, -- max 10
+					["Fairy Spawn Amount"] = 9, -- max 9
+				}
+			}
+		},
 
         MaxMoney_Restocks = 10_000_000,
 
@@ -282,6 +282,7 @@ getgenv().ConfigsKaitun = {
             },
             SeedPack = { "Idk" },
             Pets = {
+                "Phoenix",
                 "Cockatrice",
                 "Golden Goose",
                 "French Fry Ferret",
