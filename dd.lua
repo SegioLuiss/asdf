@@ -94,18 +94,18 @@ getgenv().ConfigsKaitun = {
 
     Events = {
         ["Fairy Event"] = {
-			Minimum_Money = 50_000_000,
+			Minimum_Money = 10_000_000,
 			Rewards_Item = { -- top mean select first
+				"Enchanted Seed Pack",
 				"Pet Shard Glimmering",
 				"Enchanted Egg",
 				"Mutation Spray Glimmering",
 				"FairyPoints",
 				"Fairy Targeter",
-				"Enchanted Seed Pack",
 			},
 			Upgrade = {
-				Mode = "Order",
-				Order = {
+				Mode = "Order", -- Order (mean will up on order), Chepest, Highest
+				Order = { -- top upgrade first, not put mean not upgrade
 					"Fairy Spawn Amount",
 					"Loose Fairy Spawn Amount",
 					"Glimmer Multiplier",
@@ -117,28 +117,42 @@ getgenv().ConfigsKaitun = {
 					["Fairy Event Duration"] = 10, -- max 10
 					["Fairy Spawn Amount"] = 9, -- max 9
 				}
-			}
+			},
+			
+			Catch_Fairy_Before_Restock = 51,
 		},
 
         MaxMoney_Restocks = 10_000_000,
 
-        Shop = {
-            "Sprout Seed Pack",
-            "Sprout Egg",
-            -- "Mandrake",
-            "Silver Fertilizer",
-            -- "Canary Melon",
-            -- "Amberheart",
-            ["Spriggan"] = 8,
-            -- Friend Shop
-            "Skyroot Chest",
-            "Pet Shard GiantBean",
-        },
+        Shop = { -- un comment to buy
+			"Enchanted Chest",
+			"Pet Shard Glimmering",
+			"Enchanted Egg",
+			"Enchanted Seed Pack",
+			-- "Drake",
+			"Pixie Faern",
+			"Untold Bell",
+			"Luminous Sprite",
+			"Mutation Spray Luminous",
+			"Luminous Wand",
 
-        ["Traveling Shop"] = {
-            "Bee Egg",
-            "Common Summer Egg",
-        },
+			"Sprout Seed Pack",
+			"Sprout Egg",
+			-- "Mandrake",
+			"Silver Fertilizer",
+			-- "Canary Melon",
+			-- "Amberheart",
+			["Spriggan"] = 8,
+			-- Friend Shop
+			"Skyroot Chest",
+			"Pet Shard GiantBean",
+		},
+		["Traveling Shop"] = {
+			"Bee Egg",
+			"Paradise Egg", 
+			"Rare Summer Egg", 
+			"Common Summer Egg"
+		},
 
         Craft = {
 			"Enchanted Chest",
