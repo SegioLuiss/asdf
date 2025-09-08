@@ -141,10 +141,14 @@ getgenv().ConfigsKaitun = {
         },
 
         Craft = {
-            "Anti Bee Egg",
-            "Pet Shard GiantBean",
-            "Sprout Egg",
-        },
+			"Enchanted Chest",
+			"Fairy Net",
+			"Enchanted Egg",
+			"Enchanted Seed Pack",
+			"Anti Bee Egg",
+			"Pet Shard GiantBean",
+			"Sprout Egg",
+		},
 
         Start_Do_Honey = 2_000_000
     },
